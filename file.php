@@ -192,7 +192,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'PUT') {
     header('Content-Type: application/json');
     echo json_encode($response);
 }
-
 // Menangani permintaan DELETE
 if ($_SERVER['REQUEST_METHOD'] === 'DELETE') {
     // Menerima data JSON dari body request
